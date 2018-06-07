@@ -1,5 +1,5 @@
 #coding:utf-8
-__author__ = 'qiyanming'
+__author__ = '**'
 __date__ = '2017/12/18'
 import paramiko
 from datetime import datetime
@@ -64,7 +64,7 @@ class SSHConnection(object):
         return sum
 
 if __name__=='__main__':
-    obj = SSHConnection(host='10.69.43.28', username='root', pwd='EthicI4APEVeVR')
+    obj = SSHConnection(host='', username='**', pwd='**')
     obj.run(['ls','pwd'])
     #obj.run(['ls'],downLoad=['/root/test1.py','/Users/qiyanming/Documents/rootTest/apiTest/testCase/cp/test16.py'])
     obj.run(['ls'],upLoad=['/Users/qiyanming/Documents/rootTest/apiTest/testCase/cp/test6.py', '/root/test1.py'])
